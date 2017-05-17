@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82831A11ECBEF3000D764C9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82831A01ECBEF3000D764C9 /* SettingsViewController.swift */; };
+		C82831A51ECBF7F700D764C9 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82831A41ECBF7F700D764C9 /* Setting.swift */; };
 		C834DD4D1ECB5E8500B813DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C834DD4C1ECB5E8500B813DB /* AppDelegate.swift */; };
-		C834DD4F1ECB5E8500B813DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C834DD4E1ECB5E8500B813DB /* ViewController.swift */; };
+		C834DD4F1ECB5E8500B813DB /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C834DD4E1ECB5E8500B813DB /* TipViewController.swift */; };
 		C834DD521ECB5E8500B813DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C834DD501ECB5E8500B813DB /* Main.storyboard */; };
 		C834DD541ECB5E8500B813DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C834DD531ECB5E8500B813DB /* Assets.xcassets */; };
 		C834DD571ECB5E8500B813DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C834DD551ECB5E8500B813DB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C82831A01ECBEF3000D764C9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C82831A41ECBF7F700D764C9 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		C834DD491ECB5E8500B813DB /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C834DD4C1ECB5E8500B813DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C834DD4E1ECB5E8500B813DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C834DD4E1ECB5E8500B813DB /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		C834DD511ECB5E8500B813DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C834DD531ECB5E8500B813DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C834DD561ECB5E8500B813DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C834DD4C1ECB5E8500B813DB /* AppDelegate.swift */,
-				C834DD4E1ECB5E8500B813DB /* ViewController.swift */,
+				C834DD4E1ECB5E8500B813DB /* TipViewController.swift */,
 				C834DD501ECB5E8500B813DB /* Main.storyboard */,
+				C82831A01ECBEF3000D764C9 /* SettingsViewController.swift */,
 				C834DD531ECB5E8500B813DB /* Assets.xcassets */,
 				C834DD551ECB5E8500B813DB /* LaunchScreen.storyboard */,
 				C834DD581ECB5E8500B813DB /* Info.plist */,
+				C82831A41ECBF7F700D764C9 /* Setting.swift */,
 			);
 			path = tippy;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C834DD4F1ECB5E8500B813DB /* ViewController.swift in Sources */,
+				C834DD4F1ECB5E8500B813DB /* TipViewController.swift in Sources */,
 				C834DD4D1ECB5E8500B813DB /* AppDelegate.swift in Sources */,
+				C82831A51ECBF7F700D764C9 /* Setting.swift in Sources */,
+				C82831A11ECBEF3000D764C9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				C834DD5D1ECB5E8500B813DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
