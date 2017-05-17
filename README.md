@@ -21,11 +21,12 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] User can setting tip percentage options (maybe edit amount or add some option)
+- [ ] Add function to share bill with a group (1 to 4 member)
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+- It takes many time to implement theme switching. I looking for a method to define theme color in a config file (like Android code) but I'm fail.
 
 <img src='http://gph.is/2rpMjfK' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
@@ -37,7 +38,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Tran Tien Tin]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
