@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 - It takes many time to implement theme switching. I looking for a method to define theme color in a config file (like Android code) but I'm fail.
 
-<img src='http://gph.is/2rpMjfK' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/4yyi6ka.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
